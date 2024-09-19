@@ -1,0 +1,112 @@
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fbe9e7; /* Fondo suave rosado */
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #240811; /* Color negro porque me gusta alv */
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding: 0 20px;
+    color: #555;
+}
+
+header {
+    background-color: #ff80ab; /* Encabezado en rosa suave */
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px solid #ff4081;
+}
+
+/* Estilo para la foto */
+.profile-photo {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid #ff80ab;
+}
+
+/* Secciones */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Estilo para la lista de hobbies */
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+ul li {
+    background: #ffebee;
+    color: #444;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 5px solid #ff4081;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Estilo para la música */
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+ol li {
+    background: #ffe4e1;
+    color: #555;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ol li a {
+    text-decoration: none;
+    color: #ff4081;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+ol li a:hover {
+    background-color: #ff80ab;
+    color: white;
+}
+
+
+
+    }
+
+    section {
+        padding: 10px;
+    }
+}
