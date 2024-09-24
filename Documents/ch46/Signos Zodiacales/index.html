@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signos Zodiacales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Descubre tu Signo Zodiacal</h1>
+    </header>
+
+    <main>
+        <section>
+            <label for="birthdate">Selecciona tu fecha de nacimiento:</label>
+            <input type="date" id="birthdate">
+            <button onclick="getZodiacSign()">Ver Signo Zodiacal</button>
+        </section>
+
+        <section id="zodiac-result" class="hidden">
+            <h2>Tu signo es: <span id="zodiac-sign"></span></h2>
+            <p id="zodiac-description"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
