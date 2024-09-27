@@ -1,0 +1,33 @@
+/* Estilos generales para todas las páginas */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #f0c5e8; /* Color rosa suave */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #d5006d; /* Color rosa fuerte */
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #d5006d; /* Color rosa fuerte */
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: #e83e8c
